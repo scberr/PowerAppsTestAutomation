@@ -58,7 +58,15 @@ namespace Microsoft.PowerApps.TestAutomation.Tests
         {
             BrowserOptions options = RunTestSettings.Options;
             options.BrowserType = _browserType;
-            options.DriversPath = _driversPath;
+
+            if (string.IsNullOrEmpty(_driversPath))
+            {
+                _driversPath = Environment.CurrentDirectory;
+            }
+            else
+            {
+                options.DriversPath = _driversPath;
+            }
 
             using (var appBrowser = new PowerAppBrowser(options))
             {

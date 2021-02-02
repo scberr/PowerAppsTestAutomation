@@ -41,7 +41,7 @@
   <!-- Parameters used by tests at runtime -->
   <TestRunParameters>
     <Parameter name="OnlineUsername" value="azuredevopsagent1@sdb555.onmicrosoft.com" />
-    <Parameter name="OnlinePassword" value="Deep^&amp;*(Wren2Zord1" />
+    <Parameter name="OnlinePassword" value="Deep^&*(Wren2Zord1" />
     <!-- OnlineUrl (https://make.powerapps.com , https://make.preview.powerapps.com) -->
     <Parameter name="OnlineUrl" value="https://make.powerapps.com"  />
     <!-- CloudIdentity,FederatedIdentity,PassThrough -->
