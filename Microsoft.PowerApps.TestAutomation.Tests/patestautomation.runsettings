@@ -40,18 +40,18 @@
   </DataCollectionRunSettings>
   <!-- Parameters used by tests at runtime -->
   <TestRunParameters>
-    <Parameter name="OnlineUsername" value="" />
-    <Parameter name="OnlinePassword" value="" />
+    <Parameter name="OnlineUsername" value="azuredevopsagent1@sdb555.onmicrosoft.com" />
+    <Parameter name="OnlinePassword" value="4cW25e~PZZV9i-gZJ1.vXNbk9wde_PeXt_" />
     <!-- OnlineUrl (https://make.powerapps.com , https://make.preview.powerapps.com) -->
-    <Parameter name="OnlineUrl" value=""  />
+    <Parameter name="OnlineUrl" value="https://make.powerapps.com"  />
     <!-- CloudIdentity,FederatedIdentity,PassThrough -->
-    <Parameter name="LoginMethod" value=""  />
+    <Parameter name="LoginMethod" value="CloudIdentity"  />
     <!-- Chrome,Firefox -->
     <Parameter name="BrowserType" value="Chrome" />
     <Parameter name="DriversPath" value="" />
     <Parameter name="UsePrivateMode" value="true" />
     <Parameter name="ResultsDirectory" value="" />
-    <Parameter name="TestAutomationURLFilePath" value="" />
+    <Parameter name="TestAutomationURLFilePath" value="TestURLs.json" />
     <Parameter name="TestMaxWaitTimeInSeconds" value="600" />
   </TestRunParameters>
   <!-- Adapter Specific sections -->
