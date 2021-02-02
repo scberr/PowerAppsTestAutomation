@@ -58,6 +58,7 @@ namespace Microsoft.PowerApps.TestAutomation.Tests
         {
             BrowserOptions options = RunTestSettings.Options;
             options.BrowserType = _browserType;
+            options.PrivateMode = string.IsNullOrEmpty(_usePrivateMode) ? options.PrivateMode : Convert.ToBoolean( _usePrivateMode);
 
             if (string.IsNullOrEmpty(_driversPath))
             {
