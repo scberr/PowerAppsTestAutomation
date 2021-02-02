@@ -49,7 +49,7 @@
     <!-- Chrome,Firefox -->
     <Parameter name="BrowserType" value="Chrome" />
     <Parameter name="DriversPath" value="" />
-    <Parameter name="UsePrivateMode" value="true" />
+    <Parameter name="UsePrivateMode" value="false" />
     <Parameter name="ResultsDirectory" value="" />
     <Parameter name="TestAutomationURLFilePath" value="TestURLs.json" />
     <Parameter name="TestMaxWaitTimeInSeconds" value="600" />
